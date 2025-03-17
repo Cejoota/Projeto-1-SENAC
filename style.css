@@ -1,0 +1,140 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* RESET */
+
+/* BODY */
+body{
+    background-color: rgb(205, 217, 241);
+}
+/* BODY */
+
+/* HEADER */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    max-height: 800px;
+    margin-bottom: 50px;
+}
+
+.logo{
+    display: flex;
+    height: 80px;
+    border-radius: 25px;
+    text-align: left;
+}
+
+.e-name{
+    font-size: 50px;
+    margin-left: 300px;
+}
+/* HEADER */
+
+/* MAIN */
+main{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.pic1{
+    width: 500px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo{
+    font-size: 40px;
+    margin: 40px 0 5px 40px;
+}
+
+.preco{
+    font-size: 30px;
+    margin: 0 0 5px 40px;
+    color: rgb(73, 73, 73)
+}
+
+.desc{
+    font-size: 20px;
+    margin: 0 0 15px 40px;
+    color: rgb(79, 192, 89);
+}
+
+.review{
+    font-size: 18px;
+    margin: 0 0 0 40px;
+    color: gray;
+}
+
+.content2{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    color: gray;
+}
+
+.size, .color{
+    font-size: 20px;
+    margin: 50px 0 0 40px;
+}
+
+.l1{
+    list-style-type: none;
+    display: inline-flex;
+    height: fit-content;
+    margin: 55px 0 0 40px;
+    gap: 15px;
+}
+
+a{
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+}
+
+.color{
+    font-size: 20px;
+}
+
+.content3{
+    display: flex;
+    justify-content: row;
+}
+
+.l2{
+    display: inline-flex;
+    list-style-type: none;
+    width: 50px;
+    height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.l2.black{
+    background-color: black;
+}
+
+.l2.red{
+    background-color: red;
+}
+
+.l2.blue{
+    background-color: blue;
+}
+
+.l2.lightpink{
+    background-color: lightpink;
+}
+
+/* MAIN */
