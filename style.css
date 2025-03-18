@@ -48,6 +48,19 @@ main{
 }
 .pic1{
     height: 600px;
+    transition: opacity 1s ease-in-out;
+}
+
+.pic2{
+    display: none;
+    position: absolute;
+    height: 600px;
+}
+
+.pic3{
+    display: none;
+    position: absolute;
+    height: 600px;
 }
 
 .container{
@@ -197,3 +210,22 @@ button{
 }
 
 /* BUTTON */
+
+/* CHECKBOX */
+#img1:checked + .pic2{
+    display: block;
+}
+
+#img1:checked ~ .pic1{
+    display: none;
+}
+
+#img2:checked + .pic3{
+    display: block;
+}
+
+#img2:checked ~ .pic3{
+    display: block;
+}
+
+/* CHECKBOX */
