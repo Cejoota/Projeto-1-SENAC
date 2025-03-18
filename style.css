@@ -1,53 +1,61 @@
-/* RESET */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-/* RESET */
-
 /* BODY */
 body{
     background-color: rgb(205, 217, 241);
 }
 /* BODY */
 
+/* SECTION */
+section{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: white;
+    height: 600px; /* altura */
+    width: 1150px; /* largura */
+    margin: 0 0 0 500px;
+}
+/* SECTION */
+
 /* HEADER */
 header{
     display: flex;
     flex-direction: row;
-    justify-content: left;
     align-items: center;
-    max-height: 800px;
-    margin-bottom: 50px;
 }
 
 .logo{
+    margin: 0 0 0 800px;
     display: flex;
     height: 80px;
     border-radius: 25px;
-    text-align: left;
 }
 
 .e-name{
     font-size: 50px;
-    margin-left: 300px;
+    margin-left: 200px;
 }
 /* HEADER */
 
 /* MAIN */
 main{
     background-color: white;
-    display: flex;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.img1{
+    display: inline-flex;
     flex-direction: row;
 }
-
 .pic1{
-    width: 500px;
+    height: 600px;
 }
 
-.content{
-    display: flex;
+.container{
+    justify-content: baseline;
+}
+
+.roupa{
+    display: inline-flex;
     flex-direction: column;
 }
 
@@ -70,12 +78,13 @@ main{
 
 .review{
     font-size: 18px;
-    margin: 0 0 0 40px;
+    margin: 50px 0 0 40px;
     color: gray;
+    width: fit-content;
 }
 
-.content2{
-    display: flex;
+.tam{
+    display: inline-flex;
     flex-direction: row;
     list-style-type: none;
     color: gray;
@@ -89,6 +98,7 @@ main{
 .l1{
     list-style-type: none;
     display: inline-flex;
+    flex-direction: row;
     height: fit-content;
     margin: 55px 0 0 40px;
     gap: 15px;
@@ -103,22 +113,37 @@ a:hover{
     color: blue;
 }
 
-.color{
-    font-size: 20px;
+.content3{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
 }
 
-.content3{
-    display: flex;
-    justify-content: row;
+.cor{
+    display: inline flex;
+}
+
+.color{
+    flex-direction: row;
+    margin: 30px 0 0 40px;
+    color: gray;
+}
+
+.lista2{
+    display: inline;
+    margin-left: 90px;
 }
 
 .l2{
-    display: inline-flex;
+    display: inline-block;
     list-style-type: none;
-    width: 50px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     cursor: pointer;
+    margin: 5px;
+
 }
 
 .l2.black{
@@ -137,4 +162,38 @@ a:hover{
     background-color: lightpink;
 }
 
+.qtd{
+    display: block;
+}
+
+.quanti{
+    display: inline-block;
+    margin: 0 0 0 40px;
+    color: gray;
+}
+
+input{
+    text-align: center;
+    border-radius: 50px;
+    width: 40px;
+    background-color: rgb(232, 232, 233);
+    border: none;
+    margin-left: 15px;
+}
 /* MAIN */
+
+/* BUTTON */
+button{
+    border-radius: 50px;
+    padding: 5px 10px;
+    background-color: rgb(172, 121, 219);
+    color: white;
+    margin: 50px 0 0 200px;
+    height: 50px;
+    width: 300px;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+/* BUTTON */
