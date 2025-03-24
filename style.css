@@ -212,6 +212,12 @@ button{
 /* BUTTON */
 
 /* CHECKBOX */
+
+#img1, #img2{
+    height: fit-content;
+    display: block;
+}
+
 #img1:checked + .pic2{
     display: block;
 }
@@ -228,4 +234,45 @@ button{
     display: block;
 }
 
+#img1, #img2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-100%, -100%);
+}
+
 /* CHECKBOX */
+
+/* LABEL */
+
+.lb1, .lb2{
+    display: block;
+    width: 45px;
+    height: 15px;
+    border-radius: 100%;
+    border: 1px solid gray;
+    cursor: pointer;
+    background-color: gray;
+    z-index: 3;
+}
+
+.lb1{
+    position: relative;
+    top: 500px;
+    right: 31px;
+}
+
+.lb2{
+    position: relative;
+    top: 530px;
+    right: 50px;
+}
+
+.rad1:checked ~ .lb1 {
+    background-color: rgb(172, 121, 219);
+}
+.rad2:checked ~ .lb2 {
+    background-color: rgb(172, 121, 219);
+}
+
+/* LABEL */
