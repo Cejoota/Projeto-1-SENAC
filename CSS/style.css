@@ -1,6 +1,6 @@
 /* BODY */
 body{
-    background-color: rgb(205, 217, 241);
+    background-color: #D8E0B7;
 }
 /* BODY */
 
@@ -11,7 +11,7 @@ section{
     background-color: white;
     height: 600px; /* altura */
     width: 1150px; /* largura */
-    margin: 0 0 0 500px;
+    margin: 0 0 0 400px;
 }
 /* SECTION */
 
@@ -23,7 +23,7 @@ header{
 }
 
 .logo{
-    margin: 0 0 0 800px;
+    margin: 0 0 0 700px;
     display: flex;
     height: 80px;
     border-radius: 25px;
