@@ -153,15 +153,15 @@ p{
     right: 30px;
     top: 472px;
     width: 300px;
-    height: 25px;
-    border-radius: 10px;
+    height: 33px;
+    border-radius: 30px;
 }
 
 .lupa{
     height: 15px;
     position: absolute;
-    top: 477px;
-    right: 37px;
+    top: 480px;
+    right: 40px;
 }
 
 ::placeholder{
