@@ -3,37 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/main.css" />
     <title>CJ E-Commerce</title>
   </head>
   <body>
     <header>
-      <div class="e-name">
-        <img class="logo" src="/images/CJ CLOTHING.jpg" alt="logo" />
-        <h1>C.J Clothing</h1>
-      </div>
-      <div class="login">
-        <!-- icone de login -->
-        <p>LOGIN</p>
-        <!-- icone de register -->
-        <p>REGISTRE-SE</p>
+      <div class="container">
+        <div class="e-name">
+          <img class="logo" src="/images/CJ CLOTHING.jpg" alt="logo" />
+          <h1 class="site-name">C.J Clothing</h1>
+          <div class="login">
+            <ul class="list-login">
+              <img
+                class="login-icon"
+                src="./images/Assets/login_icon.png"
+                alt="icone de login"
+              />
+              <a class="img-header" href=""><li class="login-item">LOGIN</li></a>
+              <img
+                class="register-icon"
+                src="./images/Assets/register-login.png"
+                alt="icone de registro"
+              />
+              <a class="img-header" href=""><li class="register-item">REGISTRE-SE</li></a>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
-    <main>
-      <h2>Vista o seu dia a dia com estilo.</h2>
-      <p>
-        Estilo casual para o homem moderno! <br/>
-        Conforto e atitude em cada peça.
-      </p>
-      <!-- 2 FOTOS DE AMOSTRA -->
+    <main class="container-main">
+      <div class="main-text">
+        <h2>Vista o seu dia a dia com estilo.</h2>
+        <p class="sub-text1">Estilo casual para o homem moderno!</p>
+        <p class="sub-text2">Conforto e atitude em cada peça.</p>
+        <ul class="list-img">
+            <li><img class="main-img1" src="./images/index/main-img/1.webp" alt=""></li>
+            <li><img class="main-img2" src="./images/index/main-img/2.webp" alt=""></li>
+        </ul>
+    </div>
     </main>
     <nav class="menu">
       <ul class="list">
-        <li class="list-item">INÍCIO</li>
-        <li class="list-item">CAMISETAS</li>
-        <li class="list-item">CALÇAS</li>
-        <li class="list-item">BERMUDAS</li>
-        <li class="list-item">CALÇADOS</li>
+        <a class="list-menu" href=""><li class="list-item">INÍCIO</li></a>
+        <a class="list-menu" href=""><li class="list-item">CAMISETAS</li></a>
+        <a class="list-menu" href=""><li class="list-item">CALÇAS</li></a>
+        <a class="list-menu" href=""><li class="list-item">BERMUDAS</li></a>
+        <a class="list-menu" href=""><li class="list-item">CALÇADOS</li></a>
       </ul>
+      <input class="busca" type="search" placeholder="Pesquisar">
+      <img class="lupa" src="./images/Assets/Busca.png" alt="icone de pesquisa, lupa">
       <!-- input de busca e icone de pesquisa -->
     </nav>
     <main>
