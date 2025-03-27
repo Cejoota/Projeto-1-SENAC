@@ -73,8 +73,6 @@ header{
 
 /* HEADER */
 
-
-
 /* FOOTER */
 
 footer{
@@ -82,7 +80,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 30px;
+    height: 31px;
 }
 
 /* FOOTER */
